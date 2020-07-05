@@ -2,7 +2,7 @@ body {
     font-family: "Roboto", sans-serif;
     font-size: 14px;
     background-color: #ffffff;
-    color: 757575;
+    color: #757575;
 }
 .list {
     list-style: none;
@@ -10,6 +10,8 @@ body {
 .link {
     text-decoration: none;
 }
+
+/* header */
 .logo,
 .blue {
     font-family: "Raleway";
@@ -44,6 +46,7 @@ body {
     color: #2196f3;
 }
 
+/* hero */
 .hero {
     background-color: #212121;
 }
@@ -68,4 +71,18 @@ body {
     background: #2196f3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+}
+
+/* advantages */
+.advantages-title {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+.advantages-description {
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 }
